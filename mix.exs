@@ -5,7 +5,7 @@ defmodule RSVG.MixProject do
     [
       app: :rsvg,
       version: "0.1.0",
-      elixir: "~> 1.14",
+      elixir: "~> 1.13",
       compilers: [:elixir_make] ++ Mix.compilers(),
       make_targets: ["all"],
       make_clean: ["clean"],
